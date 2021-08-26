@@ -1,0 +1,8 @@
+{
+  "name": "NoDrugs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "e140b46b"
+}
