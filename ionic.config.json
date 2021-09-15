@@ -1,8 +1,14 @@
 {
-  "name": "NoDrugs",
+  "name": "myapp",
   "integrations": {
     "capacitor": {}
   },
-  "type": "angular",
-  "id": "e140b46b"
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "gulpStartupTasks": ["sass", "watch"]
 }
